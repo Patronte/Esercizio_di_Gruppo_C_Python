@@ -1,3 +1,4 @@
+import funzioni 
 menu = True
 
 while menu:
@@ -7,11 +8,21 @@ while menu:
     match scelta:
         case 1:
             print('hai scelto uno')
+            print(funzioni.somma(1,5))
+            
         case 2:
-            pass
+            numero = int(input('scegli  quanti valori vuoi inserire '))
+            print(funzioni.creaLista(numero))
+
         case 3:
             pass
         case 4:
             pass
         case _:
             print('Sei un pippo')
+            
+            
+            
+            
+            
+            
