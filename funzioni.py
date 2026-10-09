@@ -34,12 +34,11 @@ def moltiplicazione (a,b):
 def divisione (a,b):
     return a/b
 
-nome = str(input("Inserisci il tuo nome: "))
 def saluto (nome):
     print("Ciao ,", nome)
     print("Benvenuto nelle funzioni")
     
-saluto(nome)
+
 
 def spiega (a):
     a = input("Seleziona un topic: ")
